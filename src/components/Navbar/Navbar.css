@@ -1,0 +1,46 @@
+.navbar-container{
+    font-size: 20px;
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.691);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: aliceblue;
+}
+.logo{
+    width: 10%;
+}
+.logo img{
+    width: 50px;
+    height:50px;
+}
+.navbar-right{
+    width: 40%;
+    height: 50px;
+}
+.input-bar{
+    width: 15%;
+}
+
+.navigation{
+    margin-top: 15px;
+    list-style: none;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+}
+.navbar-right li{
+    cursor: pointer;
+}
+
+input{
+    border:1px solid aliceblue;
+    border-radius: 15px;
+    padding: 5px;
+    background-color: transparent;
+}
+
+input::placeholder{
+    color: aliceblue;
+}
